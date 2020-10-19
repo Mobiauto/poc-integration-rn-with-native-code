@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D913C877EBF13D5304FDB360 /* Pods_MobiautoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EB1A3E611C4B49510FC0373 /* Pods_MobiautoTests.framework */; };
+		E9A9B6839850F0165DE86457 /* Pods_Mobiauto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8783B0BE29F4E0B70C9A170B /* Pods_Mobiauto.framework */; };
+		FD07E012253E145800CB65CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07E011253E145800CB65CB /* AppDelegate.swift */; };
+		FD07E014253E145800CB65CB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07E013253E145800CB65CB /* SceneDelegate.swift */; };
+		FD07E016253E145800CB65CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07E015253E145800CB65CB /* ViewController.swift */; };
+		FD07E019253E145800CB65CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD07E017253E145800CB65CB /* Main.storyboard */; };
+		FD07E01B253E145A00CB65CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD07E01A253E145A00CB65CB /* Assets.xcassets */; };
+		FD07E01E253E145A00CB65CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD07E01C253E145A00CB65CB /* LaunchScreen.storyboard */; };
+		FD07E029253E145A00CB65CB /* MobiautoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07E028253E145A00CB65CB /* MobiautoTests.swift */; };
+		FD07E034253E145A00CB65CB /* MobiautoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD07E033253E145A00CB65CB /* MobiautoUITests.swift */; };
+		FF102A8444B785E5CEF51F64 /* Pods_Mobiauto_MobiautoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E6B79E9823C5273DB768C6 /* Pods_Mobiauto_MobiautoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD07E025253E145A00CB65CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD07E006253E145800CB65CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD07E00D253E145800CB65CB;
+			remoteInfo = Mobiauto;
+		};
+		FD07E030253E145A00CB65CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD07E006253E145800CB65CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD07E00D253E145800CB65CB;
+			remoteInfo = Mobiauto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EB1A3E611C4B49510FC0373 /* Pods_MobiautoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiautoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C6EA3F50E575F47701A475 /* Pods-MobiautoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiautoTests.debug.xcconfig"; path = "Target Support Files/Pods-MobiautoTests/Pods-MobiautoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F27B10C41089518381BA83D /* Pods-Mobiauto-MobiautoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobiauto-MobiautoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Mobiauto-MobiautoUITests/Pods-Mobiauto-MobiautoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F36FA1B388599E375F90605 /* Pods-Mobiauto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobiauto.release.xcconfig"; path = "Target Support Files/Pods-Mobiauto/Pods-Mobiauto.release.xcconfig"; sourceTree = "<group>"; };
+		8783B0BE29F4E0B70C9A170B /* Pods_Mobiauto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobiauto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D91E1B16E29CD36538DA10 /* Pods-Mobiauto-MobiautoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobiauto-MobiautoUITests.release.xcconfig"; path = "Target Support Files/Pods-Mobiauto-MobiautoUITests/Pods-Mobiauto-MobiautoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95E6B79E9823C5273DB768C6 /* Pods_Mobiauto_MobiautoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mobiauto_MobiautoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5D2FD1DE650306E93CBAB55 /* Pods-Mobiauto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mobiauto.debug.xcconfig"; path = "Target Support Files/Pods-Mobiauto/Pods-Mobiauto.debug.xcconfig"; sourceTree = "<group>"; };
+		C2A51917B81B4F7DD77F1A5D /* Pods-MobiautoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiautoTests.release.xcconfig"; path = "Target Support Files/Pods-MobiautoTests/Pods-MobiautoTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD07E00E253E145800CB65CB /* Mobiauto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobiauto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD07E011253E145800CB65CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD07E013253E145800CB65CB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD07E015253E145800CB65CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD07E018253E145800CB65CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD07E01A253E145A00CB65CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD07E01D253E145A00CB65CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD07E01F253E145A00CB65CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD07E024253E145A00CB65CB /* MobiautoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiautoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD07E028253E145A00CB65CB /* MobiautoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiautoTests.swift; sourceTree = "<group>"; };
+		FD07E02A253E145A00CB65CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD07E02F253E145A00CB65CB /* MobiautoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiautoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD07E033253E145A00CB65CB /* MobiautoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiautoUITests.swift; sourceTree = "<group>"; };
+		FD07E035253E145A00CB65CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD07E00B253E145800CB65CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A9B6839850F0165DE86457 /* Pods_Mobiauto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD07E021253E145A00CB65CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D913C877EBF13D5304FDB360 /* Pods_MobiautoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD07E02C253E145A00CB65CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF102A8444B785E5CEF51F64 /* Pods_Mobiauto_MobiautoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E6265FEEECCF1B88B139F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8783B0BE29F4E0B70C9A170B /* Pods_Mobiauto.framework */,
+				95E6B79E9823C5273DB768C6 /* Pods_Mobiauto_MobiautoUITests.framework */,
+				1EB1A3E611C4B49510FC0373 /* Pods_MobiautoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A68E5C231D8E86A88FB07BBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5D2FD1DE650306E93CBAB55 /* Pods-Mobiauto.debug.xcconfig */,
+				6F36FA1B388599E375F90605 /* Pods-Mobiauto.release.xcconfig */,
+				6F27B10C41089518381BA83D /* Pods-Mobiauto-MobiautoUITests.debug.xcconfig */,
+				93D91E1B16E29CD36538DA10 /* Pods-Mobiauto-MobiautoUITests.release.xcconfig */,
+				46C6EA3F50E575F47701A475 /* Pods-MobiautoTests.debug.xcconfig */,
+				C2A51917B81B4F7DD77F1A5D /* Pods-MobiautoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD07E005253E145800CB65CB = {
+			isa = PBXGroup;
+			children = (
+				FD07E010253E145800CB65CB /* Mobiauto */,
+				FD07E027253E145A00CB65CB /* MobiautoTests */,
+				FD07E032253E145A00CB65CB /* MobiautoUITests */,
+				FD07E00F253E145800CB65CB /* Products */,
+				A68E5C231D8E86A88FB07BBD /* Pods */,
+				37E6265FEEECCF1B88B139F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD07E00F253E145800CB65CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD07E00E253E145800CB65CB /* Mobiauto.app */,
+				FD07E024253E145A00CB65CB /* MobiautoTests.xctest */,
+				FD07E02F253E145A00CB65CB /* MobiautoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD07E010253E145800CB65CB /* Mobiauto */ = {
+			isa = PBXGroup;
+			children = (
+				FD07E011253E145800CB65CB /* AppDelegate.swift */,
+				FD07E013253E145800CB65CB /* SceneDelegate.swift */,
+				FD07E015253E145800CB65CB /* ViewController.swift */,
+				FD07E017253E145800CB65CB /* Main.storyboard */,
+				FD07E01A253E145A00CB65CB /* Assets.xcassets */,
+				FD07E01C253E145A00CB65CB /* LaunchScreen.storyboard */,
+				FD07E01F253E145A00CB65CB /* Info.plist */,
+			);
+			path = Mobiauto;
+			sourceTree = "<group>";
+		};
+		FD07E027253E145A00CB65CB /* MobiautoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD07E028253E145A00CB65CB /* MobiautoTests.swift */,
+				FD07E02A253E145A00CB65CB /* Info.plist */,
+			);
+			path = MobiautoTests;
+			sourceTree = "<group>";
+		};
+		FD07E032253E145A00CB65CB /* MobiautoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD07E033253E145A00CB65CB /* MobiautoUITests.swift */,
+				FD07E035253E145A00CB65CB /* Info.plist */,
+			);
+			path = MobiautoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD07E00D253E145800CB65CB /* Mobiauto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD07E038253E145A00CB65CB /* Build configuration list for PBXNativeTarget "Mobiauto" */;
+			buildPhases = (
+				6FAEDB1F287BC3C3827B7A18 /* [CP] Check Pods Manifest.lock */,
+				FD07E00A253E145800CB65CB /* Sources */,
+				FD07E00B253E145800CB65CB /* Frameworks */,
+				FD07E00C253E145800CB65CB /* Resources */,
+				725C92CDAF81015A842F7C72 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mobiauto;
+			productName = Mobiauto;
+			productReference = FD07E00E253E145800CB65CB /* Mobiauto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD07E023253E145A00CB65CB /* MobiautoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD07E03B253E145A00CB65CB /* Build configuration list for PBXNativeTarget "MobiautoTests" */;
+			buildPhases = (
+				67F41301314F6094364EEA2D /* [CP] Check Pods Manifest.lock */,
+				FD07E020253E145A00CB65CB /* Sources */,
+				FD07E021253E145A00CB65CB /* Frameworks */,
+				FD07E022253E145A00CB65CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD07E026253E145A00CB65CB /* PBXTargetDependency */,
+			);
+			name = MobiautoTests;
+			productName = MobiautoTests;
+			productReference = FD07E024253E145A00CB65CB /* MobiautoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD07E02E253E145A00CB65CB /* MobiautoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD07E03E253E145A00CB65CB /* Build configuration list for PBXNativeTarget "MobiautoUITests" */;
+			buildPhases = (
+				794057868CDA3BE74B82E51A /* [CP] Check Pods Manifest.lock */,
+				FD07E02B253E145A00CB65CB /* Sources */,
+				FD07E02C253E145A00CB65CB /* Frameworks */,
+				FD07E02D253E145A00CB65CB /* Resources */,
+				7DBDC166A1D516BE3314FF87 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD07E031253E145A00CB65CB /* PBXTargetDependency */,
+			);
+			name = MobiautoUITests;
+			productName = MobiautoUITests;
+			productReference = FD07E02F253E145A00CB65CB /* MobiautoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD07E006253E145800CB65CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FD07E00D253E145800CB65CB = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					FD07E023253E145A00CB65CB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FD07E00D253E145800CB65CB;
+					};
+					FD07E02E253E145A00CB65CB = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = FD07E00D253E145800CB65CB;
+					};
+				};
+			};
+			buildConfigurationList = FD07E009253E145800CB65CB /* Build configuration list for PBXProject "Mobiauto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD07E005253E145800CB65CB;
+			productRefGroup = FD07E00F253E145800CB65CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD07E00D253E145800CB65CB /* Mobiauto */,
+				FD07E023253E145A00CB65CB /* MobiautoTests */,
+				FD07E02E253E145A00CB65CB /* MobiautoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD07E00C253E145800CB65CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD07E01E253E145A00CB65CB /* LaunchScreen.storyboard in Resources */,
+				FD07E01B253E145A00CB65CB /* Assets.xcassets in Resources */,
+				FD07E019253E145800CB65CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD07E022253E145A00CB65CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD07E02D253E145A00CB65CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67F41301314F6094364EEA2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiautoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6FAEDB1F287BC3C3827B7A18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobiauto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725C92CDAF81015A842F7C72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobiauto/Pods-Mobiauto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobiauto/Pods-Mobiauto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobiauto/Pods-Mobiauto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		794057868CDA3BE74B82E51A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mobiauto-MobiautoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DBDC166A1D516BE3314FF87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobiauto-MobiautoUITests/Pods-Mobiauto-MobiautoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mobiauto-MobiautoUITests/Pods-Mobiauto-MobiautoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mobiauto-MobiautoUITests/Pods-Mobiauto-MobiautoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD07E00A253E145800CB65CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD07E016253E145800CB65CB /* ViewController.swift in Sources */,
+				FD07E012253E145800CB65CB /* AppDelegate.swift in Sources */,
+				FD07E014253E145800CB65CB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD07E020253E145A00CB65CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD07E029253E145A00CB65CB /* MobiautoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD07E02B253E145A00CB65CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD07E034253E145A00CB65CB /* MobiautoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD07E026253E145A00CB65CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD07E00D253E145800CB65CB /* Mobiauto */;
+			targetProxy = FD07E025253E145A00CB65CB /* PBXContainerItemProxy */;
+		};
+		FD07E031253E145A00CB65CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD07E00D253E145800CB65CB /* Mobiauto */;
+			targetProxy = FD07E030253E145A00CB65CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD07E017253E145800CB65CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD07E018253E145800CB65CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD07E01C253E145A00CB65CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD07E01D253E145A00CB65CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD07E036253E145A00CB65CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD07E037253E145A00CB65CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD07E039253E145A00CB65CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5D2FD1DE650306E93CBAB55 /* Pods-Mobiauto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU326JP8T7;
+				INFOPLIST_FILE = Mobiauto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mobiauto.Mobiauto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD07E03A253E145A00CB65CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F36FA1B388599E375F90605 /* Pods-Mobiauto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU326JP8T7;
+				INFOPLIST_FILE = Mobiauto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mobiauto.Mobiauto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD07E03C253E145A00CB65CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46C6EA3F50E575F47701A475 /* Pods-MobiautoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU326JP8T7;
+				INFOPLIST_FILE = MobiautoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mobiauto.MobiautoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobiauto.app/Mobiauto";
+			};
+			name = Debug;
+		};
+		FD07E03D253E145A00CB65CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A51917B81B4F7DD77F1A5D /* Pods-MobiautoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU326JP8T7;
+				INFOPLIST_FILE = MobiautoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mobiauto.MobiautoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mobiauto.app/Mobiauto";
+			};
+			name = Release;
+		};
+		FD07E03F253E145A00CB65CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F27B10C41089518381BA83D /* Pods-Mobiauto-MobiautoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU326JP8T7;
+				INFOPLIST_FILE = MobiautoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mobiauto.MobiautoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mobiauto;
+			};
+			name = Debug;
+		};
+		FD07E040253E145A00CB65CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D91E1B16E29CD36538DA10 /* Pods-Mobiauto-MobiautoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XU326JP8T7;
+				INFOPLIST_FILE = MobiautoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.mobiauto.MobiautoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Mobiauto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD07E009253E145800CB65CB /* Build configuration list for PBXProject "Mobiauto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD07E036253E145A00CB65CB /* Debug */,
+				FD07E037253E145A00CB65CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD07E038253E145A00CB65CB /* Build configuration list for PBXNativeTarget "Mobiauto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD07E039253E145A00CB65CB /* Debug */,
+				FD07E03A253E145A00CB65CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD07E03B253E145A00CB65CB /* Build configuration list for PBXNativeTarget "MobiautoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD07E03C253E145A00CB65CB /* Debug */,
+				FD07E03D253E145A00CB65CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD07E03E253E145A00CB65CB /* Build configuration list for PBXNativeTarget "MobiautoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD07E03F253E145A00CB65CB /* Debug */,
+				FD07E040253E145A00CB65CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD07E006253E145800CB65CB /* Project object */;
+}
